@@ -13,9 +13,7 @@ function solution(a, b) {
         smallNum = a;
     }
     
-    
     answer = ((bigNum + smallNum) * (bigNum - smallNum + 1)) /2;
-    
     
     return answer;
 }
