@@ -1,8 +1,6 @@
 function solution(n, arr1, arr2) {
     var answer = [];
     
-    var bitArray = new Array(n);
-    
     for(let i = 0; i< arr1.length; i++) {
         let bitOperator = (arr1[i] | arr2[i]).toString(2);
         let changeStr = ''
